@@ -1,5 +1,4 @@
-server:
-  port: 8080
+server-name : this is a server name
   
 
           

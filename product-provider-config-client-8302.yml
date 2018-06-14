@@ -1,0 +1,22 @@
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+    open-in-view: true
+  datasource:
+    platform: h2
+    schema: classpath:schema.sql
+    data: classpath:data.sql
+    
+logging:
+  level:
+    org.hibernate : info
+    org.hibernate.type.descriptor.sql.BasicBinder : trace
+    org.hibernate.type.descriptor.sql.BasicExtraator : trace
+
+info:
+  app:
+    name: "product-provider-config-client-8302"
+    description: "product-provider-config-client-8302程序"
+    version: "0.0.1"    

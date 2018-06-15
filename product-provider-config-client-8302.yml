@@ -1,5 +1,5 @@
 server:
-  port: 8302
+  port: '{cipher}459c0c93ceab39c1924bb5addf72f03dc5eedfed7edac44851ecb0a1a1e888c9'
 spring:
   jpa:
     show-sql: true
